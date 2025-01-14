@@ -1,21 +1,25 @@
 a = '45'
 b = '3.14'
-string1 = 'нельзя просто так взять и начать писать автотесты'
-string3 = r'python\name'
-string2 = 'Все получится' \
-          '\'Летс Гоу\'\n'
-
-our_org = 'JJJ Watt'
-adressee = 'Хьюстон, Техас'
-nom_name = 'Дилайн_Лайнбэк_Дифенс'
-result = f""" Поставить  в %s, на позицию %s, в команду %s
-""" % (our_org, adressee, nom_name)
-result2 = """ Поставить  в {2}, на позицию {0}, в команду {1}
-""" .format (our_org, adressee, nom_name)
-result3 = f"""Поставить  в {our_org}, на позицию {adressee}, в команду {nom_name}
-"""
-print(result2, result, result3)
-# c = string1[0:6]
+c = 12
+d = 91
+x = c + d
+print(x)
+# string1 = 'нельзя просто так взять и начать писать автотесты'
+# string3 = r'python\name'
+# string2 = 'Все получится' \
+#           '\'Летс Гоу\'\n'
+#
+# our_org = 'JJJ Watt'
+# adressee = 'Хьюстон, Техас'
+# nom_name = 'Дилайн_Лайнбэк_Дифенс'
+# result = f""" Поставить  в %s, на позицию %s, в команду %s
+# """ % (our_org, adressee, nom_name)
+# result2 = """ Поставить  в {2}, на позицию {0}, в команду {1}
+# """ .format (our_org, adressee, nom_name)
+# result3 = f"""Поставить  в {our_org}, на позицию {adressee}, в команду {nom_name}
+# """
+# print(result2, result, result3)
+# # c = string1[0:6]
 # d = string1.replace('нельзя', 'Можно')
 # g = string1.replace('а', 'о')
 # print(d)
